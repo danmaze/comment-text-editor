@@ -1,0 +1,23 @@
+<?php $sets = array(
+	"\\in ",
+	"\\ni ",
+	"\\notin ",
+	"\\nsubseteq ",
+	"\\nsupseteq ",
+	"\\sqsubset ",
+	"\\sqsubseteq ",
+	"\\sqsupset ",
+	"\\sqsupseteq ",
+	"\\subset ", 
+	"\\subseteq ",
+	"\\subseteqq ",
+	"\\supset ",
+	"\\supseteq ",
+	"\\supseteqq ",
+	"\\emptyset",
+	"\\mathbb{N}",
+	"\\mathbb{Z}",
+	"\\mathbb{Q}",
+	"\\mathbb{R}",
+	"\\mathbb{C}"
+); ?>

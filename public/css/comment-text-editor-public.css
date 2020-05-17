@@ -1,0 +1,108 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+div#wp-comment-wrap {
+    margin-bottom: 20px;
+}
+
+.mce-label {
+    font-family: 'LatoWeb', Helvetica, Arial, sans-serif!important;
+    font-size: 15px;
+}
+
+.symbols-type {
+    cursor: pointer;
+    margin-bottom: 10px!important;
+    margin-right: 5px;
+    padding: 5px 10px!important;
+}
+
+.symbols-type-options {
+    background-color: #F8FAF5;
+    border: 1px solid #4ba614!important;
+    max-height: none!important;
+    overflow-y: hidden!important;
+    position: relative!important;
+    padding: 5px;
+    display: none;
+}
+
+.symbols-in-view {
+    background-color: #fff;
+    color: #555!important;
+    border-color: #333;
+}
+
+#math-equation-preview {
+    background-color: #f5f5f5;
+    min-height: 60px;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.symbol {
+    width: 35px;
+    height: 35px;
+    float: left;
+    margin: 0 5px 5px 0;
+    border: 1px solid #CFCFCF;
+    font-size: 17px;
+    text-align: center!important;
+    background-color: #fff;
+    cursor: pointer!important;
+    list-style-type: none!important;
+    background-image: none!important;
+    overflow: hidden;
+    position: relative;
+}
+
+.small-icon {
+    width: 32px!important;
+    height: 32px!important;
+}
+
+.medium-icon {
+    width: 40px!important;
+    height: 40px!important;
+}
+
+.large-icon {
+    width: 60px!important;
+    height: 40px!important;
+}
+
+.add_math {
+    cursor: pointer;
+    float: right;
+    font-size: 15px;
+    padding: 5px 0;
+}
+
+
+/* .icon-symbol {
+    width: 32px;
+    height: 32px;
+    float: left;
+    margin: 2px;
+    border: 1px solid #CCCCCC;
+    cursor: pointer;
+    text-align: center!important;
+    background-color: #fff;
+    cursor: pointer!important;
+    list-style-type: none!important;
+    background-image: none!important;
+    vertical-align: middle;
+    overflow: hidden;
+    position: relative;
+}
+
+.icon-symbol img {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+} */
