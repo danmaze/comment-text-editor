@@ -1,12 +1,12 @@
 # Comment Text Editor
 
 Plugin Name:       Comment Text Editor
-Plugin URI:        https://github.com/ihenetudan/comment-text-editor/
+Plugin URI:        https://github.com/danmaze/comment-text-editor/
 Description:       Adds functionality for submitting comments via AJAX and writing simple math on your website
 Version:           1.0.0
 Author:            Daniel Ihenetu
 License:           GNU GPL v2.0
-License URI:       https://github.com/ihenetudan/comment-text-editor/blob/master/LICENSE.txt
+License URI:       https://github.com/danmaze/comment-text-editor/blob/master/LICENSE.txt
 
 # Description
 
