@@ -10,7 +10,7 @@ License URI:       https://github.com/danmaze/comment-text-editor/blob/master/LI
 
 # Description
 
-This is a WordPress comment text editor formerly WYSIWYG based off of Tiny MCE. The plugin has been designed using Devin's WordPress plugin boilerplate (https://github.com/DevinVinson/WordPress-Plugin-Boilerplate). Unfortunately, I have been unable to find the time to properly implement the JS for handling replies and moving the editor around in the DOM. So, the good old textarea is left as is. 
+This was intented to be plugin that adds a WordPress WYSIWYG comment text editor based off of Tiny MCE. The plugin has been designed using Devin's WordPress plugin boilerplate (https://github.com/DevinVinson/WordPress-Plugin-Boilerplate). Unfortunately, I have been unable to find the time to properly implement the JS for handling replies and moving the editor around in the DOM. So, the good old textarea is left as is. 
 
 However, the most important addition to WordPress' default front-end comment functionality is the UI element that allows the addition of math to the comment text box. In addition, comments are submitted via AJAX. There will always be a better way to do something and this plugin sure needs lots of improvement, so feel free to customize and improve as you see fit. It might also be necessary to make changes to the CSS and public-facing side for the math editor to match your UI.
 
