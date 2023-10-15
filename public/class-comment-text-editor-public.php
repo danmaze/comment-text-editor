@@ -281,7 +281,7 @@ class Comment_Text_Editor_Public
 
         } else {
 
-            format_comment($comment, $args, $comment_depth);
+            format_comment($comment, array(), $comment_depth);
 
         }
 
