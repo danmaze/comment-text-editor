@@ -1,11 +1,4 @@
 (function ($) {
-  if (typeof $ === "undefined") {
-    console.error(
-      "jQuery is not loaded. Please ensure jQuery is loaded before this script."
-    );
-    return;
-  }
-
   $(document).on("click", ".add_math", function (event) {
     event.preventDefault();
     console.log("add_math clicked");
