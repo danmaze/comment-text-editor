@@ -15,12 +15,10 @@
   };
 
   $(document).on("click", "#add_math", function (event) {
-    document.addEventListener("DOMContentLoaded", function () {
-      const element = document.getElementById("symbol");
-      if (element) {
-        MathJax.typesetPromise([element]);
-      }
-    });
+    const element = document.getElementById("symbol");
+    if (element) {
+      MathJax.typesetPromise([element]);
+    }
     $("#math-editor-modal").modal("show");
   });
 
@@ -41,12 +39,10 @@
     $("#math-equation-preview").text(
       "\\(" + $("#math-editor-textarea").val() + "\\)"
     );
-    document.addEventListener("DOMContentLoaded", function () {
-      const element = document.getElementById("math-equation-preview");
-      if (element) {
-        MathJax.typesetPromise([element]);
-      }
-    });
+    const element = document.getElementById("math-equation-preview");
+    if (element) {
+      MathJax.typesetPromise([element]);
+    }
   }
 
   // Handle click event for symbol type options

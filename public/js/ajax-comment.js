@@ -131,13 +131,12 @@
           // clearEditors();
 
           // Start math typesetting
-          if ($(".add_math").length)
-            document.addEventListener("DOMContentLoaded", function () {
-              const element = document.getElementById("ns-comment-text");
-              if (element) {
-                MathJax.typesetPromise([element]);
-              }
-            });
+          if ($(".add_math").length) {
+            const element = document.getElementById("ns-comment-text");
+            if (element) {
+              MathJax.typesetPromise([element]);
+            }
+          }
         },
         complete: function () {
           // what to do after a comment has been added
